@@ -1,0 +1,15 @@
+[project]
+name = "RLGymnasium"
+version = "0.1.0"
+description = "First run of gymnasium"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "icecream>=2.1.10",
+    "scipy",
+    "numpy",
+    "gymnasium[classic-control]>=0.29.0",
+    "gymnasium[box2d]>=0.29.0",
+    "ipykernel",
+    "swig",
+]
